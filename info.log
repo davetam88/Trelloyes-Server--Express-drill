@@ -1,0 +1,44 @@
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Card with id 3 not found.","level":"error"}
+{"message":"Card with id 99 not found.","level":"error"}
+{"message":"Card with id 99 not found.","level":"error"}
+{"message":"Card with id 99 not found.","level":"error"}
+{"message":"Card with id 2bdbdbed-2427-4b4f-9c51-9e85c4ef845f created","level":"info"}
+{"message":"Title is required","level":"error"}
+{"message":"Card with id c2701eef-6d74-4f6d-8fa9-4189ddd4d230 created","level":"info"}
+{"message":"Card with id 121e38ea-da9b-4d29-95e1-73a4cc979e8d created","level":"info"}
+{"message":"Card with id 509a5fe1-3ea6-4d42-be02-6f68527626e8 created","level":"info"}
+{"message":"Card with id 988a2819-4449-44dc-b24e-eaac5e7a3a09 created","level":"info"}
+{"message":"Card with id 612df9bd-8cf6-486b-89e1-12ab70afc0f3 created","level":"info"}
+{"message":"Card with id 3 not found in cards array.","level":"error"}
+{"message":"List with id 801291dd-691c-462f-ad9e-47fb19277f4b created","level":"info"}
+{"message":"Card with id 99 not found.","level":"error"}
+{"message":"Card with id 99 not found.","level":"error"}
+{"message":"List with id 1 deleted.","level":"info"}
+{"message":"List with id 1 deleted.","level":"info"}
+{"message":"List with id 1 not found.","level":"error"}
+{"message":"List with id 2 deleted.","level":"info"}
+{"message":"List with id 1 deleted.","level":"info"}
+{"message":"Card with id 1 deleted.","level":"info"}
+{"message":"Card with id 1 deleted.","level":"info"}
+{"message":"Card with id 1 not found.","level":"error"}
+{"message":"Card with id 1 deleted.","level":"info"}
+{"message":"Card with id 1 deleted.","level":"info"}
+{"message":"Card with id 1 deleted.","level":"info"}
+{"message":"Card with id 1 deleted.","level":"info"}
+{"message":"Card with id 1 deleted.","level":"info"}
+{"message":"Card with id 1 deleted.","level":"info"}
+{"message":"Card with id 1 deleted.","level":"info"}
+{"message":"Card with id 1 deleted.","level":"info"}
+{"message":"Card with id 1 deleted.","level":"info"}
+{"message":"Card with id 2 deleted.","level":"info"}
+{"message":"Card with id 1 deleted.","level":"info"}
+{"message":"Card with id 1 not found in cards array.","level":"error"}
+{"message":"List with id 0b4d063d-4d8e-4695-9e9d-d33e938dbe1d created","level":"info"}
+{"message":"List with id adb9481e-4ac3-4453-b621-6ffd00135c35 created","level":"info"}
+{"message":"List with id 8a24b0f4-9869-4ffd-98d0-0a9c9cc1eac7 created","level":"info"}

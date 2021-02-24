@@ -1,38 +1,82 @@
-# Express Boilerplate!
+## >> App Name:
 
-This is a boilerplate project used for starting new projects!
+Trelloyes-Server--Express-drill
 
-## Set up
+## >> APP Summary:
+This project builds an Express Server with a secured API endpoint so that it can be safely opened to the public, it uses Express Router API so the endpoint will support id for data manipulation of the 'database'.An in-memory array-based list and card items were used as the 'database' for this project.
 
-Complete the following steps to start a new project (NEW-PROJECT-NAME):
+this project get the starter code via Project [express-boilerplate](https://github.com/davetam88/express-boilerplate)
 
-1. Clone this repository to your local machine 
-   git clone BOILERPLATE-URL NEW-PROJECTS-NAME
-2. `cd` into the cloned repository
-3. Make a fresh start of the git history for this project with 
-   rm -rf .git && git init
-4. Install the node dependencies 
-   npm install
-5. Move the example Environment file to `.env` that will be ignored by git and read by the express server 
-   mv example.env .env
-6. Edit the contents of the `package.json` to use NEW-PROJECT-NAME instead of `"name": "express-boilerplate",`
+Error handling/reporting will be via an info.log file facilitate with the Winston logging library middleware and the response code/message..
 
-## Scripts
+The server code was refactored via layering(vertically) and modularizing(horizontally) techniques and further modularizing was possible with the help of the Express router. 
 
-Start the application 
-  npm start
+Note that endpoint only responds when given a valid Authorization header with a Bearer API token value. You can use the following page link to generate one  :
+[UUID generator](https://www.uuidgenerator.net/version1)
 
-Start nodemon for the application 
-  npm run dev
+Once it's generated, place the UUID string inside a .env file along with the NODE_ENV and server port number, similar to the following example.
+NODE_ENV=development 
+PORT=8000
+API_TOKEN=YOUR-UUID
 
-Run the tests 
-  npm test
+The endpoint supported are : 
+```
+GET /card
+GET /list
+POST /card
+POST /list
+GET /card/:id
+GET /list/:id
+DELETE /card/:id
+DELETE /list/:id
+```
 
-## Deploying
+The GET /card and GET /list endpoints return arrays of cards and lists respectively and POST /card and POST /list endpoint will allow users to add a card and list to the database respectively. Use DELETE /card/:id to delete a card and DELETE /list/:id to delete a list object.
 
-When your new project is ready for deployment, add a new Heroku application with 
-  heroku create
-This will make a new git remote called "heroku" and you can then 
-  npm run deploy
-which will push to this remote's main branch.
+the sample format for the list and card data is as follows:
+```
+lists data format 
+  {
+    id: 1,
+    header: 'List 1',
+    cardIds: [1,2]
+  }
+
+Card data format 
+  {
+    id: 1,
+    title: 'Task 1',
+    content: 'This is card 1'
+  }
+```
+
+## >> Screenshots
+
+Post query with Authorization header
+
+![main page](images/main.jpg)
+
+## >> Technologies used in this APP:
+
+* Express Server
+* app.get API
+* Express middleware
+* API tokens
+* Authorization headers
+* doenv (for the .env API authehitic key file)
+* CORS
+* Helmet
+* Winston logging library
+* morgan loggging tool
+
+-> Javascript: ES6
+
+-> Tools
+* Postman
+`* VSC Debugger
+* nodemon 
+* NPM
+
+
+## >> [Github Link](https://github.com/davetam88/Trelloyes-Server--Express-drill)
 
