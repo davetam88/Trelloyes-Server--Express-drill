@@ -15,9 +15,11 @@ Note that endpoint only responds when given a valid Authorization header with a 
 [UUID generator](https://www.uuidgenerator.net/version1)
 
 Once it's generated, place the UUID string inside a .env file along with the NODE_ENV and server port number, similar to the following example.
+```
 NODE_ENV=development 
 PORT=8000
 API_TOKEN=YOUR-UUID
+```
 
 The endpoint supported are : 
 ```
@@ -79,4 +81,5 @@ Post query with Authorization header
 
 
 ## >> [Github Link](https://github.com/davetam88/Trelloyes-Server--Express-drill)
+
 
